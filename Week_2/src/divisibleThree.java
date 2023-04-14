@@ -1,5 +1,5 @@
 //2-Write a program that prints out all the numbers between 1 and 100 that are divisible by 3.
-public class probTwo {
+public class divisibleThree {
     public static int[] divisibleByThree (){
 
         int j = 0;
