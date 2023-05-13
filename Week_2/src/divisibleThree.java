@@ -1,28 +1,31 @@
 //2-Write a program that prints out all the numbers between 1 and 100 that are divisible by 3.
+
+import java.util.*;
 public class divisibleThree {
-    public static int[] divisibleByThree (){
+    public static ArrayList divisibleByThree (){
+        ArrayList res = new ArrayList();
 
         int j = 0;
-        int[] result = new int[33];
-
         for (int i = 1; i <= 100; i++){
             if(i % 3 == 0){
-                result [j] = i;
+                res.add(i);
                 j++;
             }
         }
-
-        return result;
+        
+        return res;
     }
 
     public static void main(String[] args){
 
         System.out.println("All the numbers between 1 and 100 that are divisible by 3 are : ");
 
-        int[] arr =  divisibleByThree();
+        ArrayList arr = new ArrayList();
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        arr =  divisibleByThree();
+
+        for (int i = 0; i < arr.size(); i++) {
+            System.out.print(arr.get(i) + " ");
         }
 
     }
