@@ -1,13 +1,14 @@
 import java.io.IOException;
 import java.util.Scanner;
+import java.lang.Math;
 
-public class Area_of_a_Circle {
+public class circleArea {
 
     public static void main(String[] args) throws IOException {
         Scanner input = new Scanner(System.in);
 
         double r = input.nextDouble();
-        double pi = 3.14159;
+        double pi = Math.PI;
 
         double area = pi * (r * r);
 

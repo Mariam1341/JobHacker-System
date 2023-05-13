@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.util.Scanner;
-public class Distance_Between_Two_Points {
+public class pointDistance {
     public static void main(String[] args)  throws IOException {
         Scanner input = new Scanner(System.in);
 
