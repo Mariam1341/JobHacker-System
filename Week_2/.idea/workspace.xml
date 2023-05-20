@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5a3af41-7d3c-4056-9b97-9af5071f5f4a" name="Changes" comment="" />
+    <list default="true" id="b050b55e-e39a-42e9-a538-20277023684e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/divisibleThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divisibleThree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +18,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Q3MdKGFJT75B29h1jeneX6GzTB" />
+  <component name="ProjectId" id="2PjgaBwD7lp6D4CEVv4SQylyRl3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,11 +32,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a5a3af41-7d3c-4056-9b97-9af5071f5f4a" name="Changes" comment="" />
-      <created>1684577897832</created>
+      <changelist id="b050b55e-e39a-42e9-a538-20277023684e" name="Changes" comment="" />
+      <created>1683975965515</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684577897832</updated>
+      <updated>1683975965515</updated>
     </task>
     <servers />
   </component>
