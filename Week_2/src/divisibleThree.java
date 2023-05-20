@@ -3,8 +3,7 @@
 import java.util.*;
 public class divisibleThree {
     public static ArrayList divisibleByThree (){
-        ArrayList res = new ArrayList();
-
+        ArrayList<Integer> res = new ArrayList<>();
         int j = 0;
         for (int i = 1; i <= 100; i++){
             if(i % 3 == 0){
@@ -20,7 +19,7 @@ public class divisibleThree {
 
         System.out.println("All the numbers between 1 and 100 that are divisible by 3 are : ");
 
-        ArrayList arr = new ArrayList();
+        ArrayList<Integer> arr = new ArrayList<>();
 
         arr =  divisibleByThree();
 
