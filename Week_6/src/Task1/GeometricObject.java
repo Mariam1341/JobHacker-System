@@ -10,7 +10,7 @@ public class GeometricObject {
     public GeometricObject() {
     }
 
-    public GeometricObject(String colorName, boolean isFull) {
+    public GeometricObject(String colorName, boolean isFull, Date creationDate) {
         this.colorName = colorName;
         this.creationDate = creationDate;
         this.isFull = isFull;
@@ -38,5 +38,14 @@ public class GeometricObject {
 
     public void setFull(boolean full) {
         isFull = full;
+    }
+
+    @Override
+    public String toString() {
+        return "GeometricObject{" +
+                "colorName='" + colorName + '\'' +
+                ", isFull=" + isFull +
+                ", creationDate=" + creationDate +
+                '}';
     }
 }

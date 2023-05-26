@@ -7,6 +7,6 @@ public class Faculty extends Employee{
     @Override
     public String toString() {
         return "Class name: Faculty" +
-                "person name=" + super.getName() ;
+                "  person name = " + super.getName() ;
     }
 }

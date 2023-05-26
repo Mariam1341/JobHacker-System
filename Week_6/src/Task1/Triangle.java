@@ -2,6 +2,8 @@ package Task1;
 
 import Task1.GeometricObject;
 
+import java.util.Date;
+
 public class Triangle extends GeometricObject {
 
     private double side1 = 1.0;
@@ -11,12 +13,17 @@ public class Triangle extends GeometricObject {
     public Triangle() {
     }
 
-    public Triangle(double side1, double side2, double side3, String colorName, boolean isFull) {
-        super(colorName, isFull);
+    public Triangle(double side1, double side2, double side3) {
         this.side1 = side1;
         this.side2 = side2;
         this.side3 = side3;
+    }
 
+    public Triangle(double side1, double side2, double side3, String colorName, boolean isFull) {
+        super(colorName, isFull, new Date());
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
     }
 
     public double getSide1() {

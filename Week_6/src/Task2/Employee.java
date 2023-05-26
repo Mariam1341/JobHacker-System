@@ -10,7 +10,7 @@ public class Employee extends Person{
     @Override
     public String toString() {
         return "Class name: Employee" +
-                "person name=" + super.getName() ;
+                " person name = " + super.getName() ;
     }
 }
 

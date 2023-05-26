@@ -20,6 +20,6 @@ public class Person {
     @Override
     public String toString() {
         return "Class name: Person" +
-                "   person name = " + name ;
+                "   person name = " + getName() ;
     }
 }
