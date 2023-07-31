@@ -8,8 +8,10 @@ public class Main {
         TreeSet<Integer> set = new TreeSet<Integer>();
         Scanner input = new Scanner(System.in);
         int T = input.nextInt();
+
         for (int i = 0; i < T; i++) {
             int Q = input.nextInt();
+
             for (int j = 0; j < Q; j++) {
                 String type = input.next();
 
