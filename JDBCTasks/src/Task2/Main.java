@@ -44,7 +44,7 @@ public class Main {
             preparedStatement.setInt(1, 1);
             preparedStatement.setString(2, "Mariam");
             preparedStatement.setString(3, "Mohammed");
-            preparedStatement.setString(4, "Male");
+            preparedStatement.setString(4, "Female");
             preparedStatement.setInt(5, 48);
             preparedStatement.setString(6, "123 Mariam st");
             preparedStatement.setString(7, "123-456-7890");
@@ -96,10 +96,10 @@ public class Main {
 
             //
 //
-            String updateFemale = "UPDATE Employee SET F_Name = CONCAT('Ms ', F_Name) WHERE Age > 45";
+            String updateFemale = "UPDATE Employee SET F_Name = CONCAT('Ms ', F_Name) WHERE Age > 45 and Sex LIKE 'F%'";
             statement.executeUpdate(updateFemale);
-//            String updateMale = "UPDATE Employee SET F_Name = CONCAT('Ms ', F_Name) WHERE Age > 45 and Sex LIKE 'M%'";
-//            statement.executeUpdate(updateMale);
+            String updateMale = "UPDATE Employee SET F_Name = CONCAT('Mr ', F_Name) WHERE Age > 45 and Sex LIKE 'M%'";
+            statement.executeUpdate(updateMale);
         }catch (Exception e){
             System.out.println(e);
         }
