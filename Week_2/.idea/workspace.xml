@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b050b55e-e39a-42e9-a538-20277023684e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/divisibleThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/divisibleThree.java" afterDir="false" />
-    </list>
+    <list default="true" id="6da115e1-bbb6-44b3-b5db-e5e9a6e448a0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2PjgaBwD7lp6D4CEVv4SQylyRl3" />
+  <component name="ProjectId" id="2Q3RPTG0xHCPUevY9AqJ87VGQfH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,11 +24,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b050b55e-e39a-42e9-a538-20277023684e" name="Changes" comment="" />
-      <created>1683975965515</created>
+      <changelist id="6da115e1-bbb6-44b3-b5db-e5e9a6e448a0" name="Changes" comment="" />
+      <created>1684580253762</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683975965515</updated>
+      <updated>1684580253762</updated>
     </task>
     <servers />
   </component>
