@@ -1,0 +1,17 @@
+mysql> create database test;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> use test;
+Database changed
+
+mysql> select * from Employee;
++----+-----------+----------+--------+------+---------------+--------------+------------------+
+| ID | F_Name    | L_Name   | Sex    | Age  | Address       | Phone_Number | Vacation_Balance |
++----+-----------+----------+--------+------+---------------+--------------+------------------+
+|  1 | Ms Mariam | Mohammed | Female |   48 | 123 Mariam st | 123-456-7890 |               45 |
+|  2 | Salma     | Mohammed | Female |   30 | 123 Salma st  | 158-746-7890 |               30 |
+|  3 | Mr Ahmed  | Ramy     | Male   |   60 | 103 Ahmed st  | 123-256-7750 |               45 |
+|  4 | Hoda      | Samer    | Female |   35 | 123 Hoda st   | 873-446-7440 |               30 |
+|  5 | Samer     | Ahmed    | Male   |   20 | 423 Samer st  | 323-346-7690 |               30 |
++----+-----------+----------+--------+------+---------------+--------------+------------------+
+5 rows in set (0.00 sec)

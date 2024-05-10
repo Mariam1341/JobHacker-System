@@ -1,0 +1,32 @@
+mysql> create database test;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> use test;
+Database changed
+mysql> CREATE TABLE Persons (
+    ->     ID int NOT NULL,
+    ->     LastName varchar(255) NOT NULL,
+    ->     FirstName varchar(255),
+    ->     Age int,
+    ->     PRIMARY KEY (ID)
+    -> );
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> insert into Persons (ID, FirstName, LastName, Age) values (1, "Mariam", "Mohmmed", 20);
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into Persons (ID, FirstName, LastName, Age) values (2, "Ahmed", "Ramzy", 30);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into Persons (ID, FirstName, LastName, Age) values (3, "Salma", "Ahmed", 25);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> select * from Persons;
++----+----------+-----------+------+
+| ID | LastName | FirstName | Age  |
++----+----------+-----------+------+
+|  1 | Mohmmed  | Mariam    |   20 |
+|  2 | Ramzy    | Ahmed     |   30 |
+|  3 | Ahmed    | Salma     |   25 |
++----+----------+-----------+------+
+3 rows in set (0.01 sec)
